@@ -1,4 +1,4 @@
-package com.github.domain;
+package com.github.kovaku.domain;
 
 import java.util.Objects;
 

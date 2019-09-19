@@ -10,11 +10,11 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 import org.junit.Test;
 
-import com.github.domain.CreateEmployeeRequest;
-import com.github.domain.CreateEmployeeResponse;
-import com.github.domain.GetEmployeeResponse;
-import com.github.domain.UpdateEmployeeRequest;
-import com.github.domain.UpdateEmployeeResponse;
+import com.github.kovaku.domain.CreateEmployeeRequest;
+import com.github.kovaku.domain.CreateEmployeeResponse;
+import com.github.kovaku.domain.GetEmployeeResponse;
+import com.github.kovaku.domain.UpdateEmployeeRequest;
+import com.github.kovaku.domain.UpdateEmployeeResponse;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.parsing.Parser;

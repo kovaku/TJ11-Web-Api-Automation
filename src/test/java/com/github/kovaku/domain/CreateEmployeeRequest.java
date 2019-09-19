@@ -1,12 +1,12 @@
-package com.github.domain;
+package com.github.kovaku.domain;
 
-public class UpdateEmployeeRequest {
+public class CreateEmployeeRequest {
 
     private String name;
     private Long salary;
     private Integer age;
 
-    public UpdateEmployeeRequest(String name, Long salary, Integer age) {
+    public CreateEmployeeRequest(String name, Long salary, Integer age) {
         this.name = name;
         this.salary = salary;
         this.age = age;

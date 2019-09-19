@@ -1,15 +1,26 @@
-package com.github.domain;
+package com.github.kovaku.domain;
 
-public class CreateEmployeeRequest {
-
+public class CreateEmployeeResponse {
+    private Integer id;
     private String name;
     private Long salary;
     private Integer age;
 
-    public CreateEmployeeRequest(String name, Long salary, Integer age) {
+    public CreateEmployeeResponse(){}
+
+    public CreateEmployeeResponse(Integer id, String name, Long salary, Integer age) {
+        this.id = id;
         this.name = name;
         this.salary = salary;
         this.age = age;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {
